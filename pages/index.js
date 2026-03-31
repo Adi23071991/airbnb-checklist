@@ -242,12 +242,12 @@ export default function Home() {
         <div className={styles.headerInner}>
           <div className={styles.logo}>
             <span className={styles.logoIcon}>◈</span>
-            <span className={styles.logoText}>Grundreinigung</span>
+            <span className={styles.logoText}>Sprzątanie</span>
           </div>
           <div className={styles.headerRight}>
-            <div className={styles.subtitle}>AirBnB · 1–2× pro Monat</div>
-            <Link href="/berichte" className={styles.berichteLink}>
-              Berichte {history?.length > 0 && <span className={styles.berichteBadge}>{history.length}</span>}
+            <div className={styles.subtitle}>AirBnB · 1–2× w miesiącu</div>
+            <Link href="/raporty" className={styles.berichteLink}>
+              Raporty {history?.length > 0 && <span className={styles.berichteBadge}>{history.length}</span>}
             </Link>
           </div>
         </div>
