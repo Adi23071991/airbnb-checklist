@@ -91,10 +91,10 @@ function SectionBlock({ section, session, wohnung, onToggle, onItemNote, onSecti
           })}
 
           <div className={styles.sectionSummary}>
-            <div className={styles.sectionSummaryLabel}>Abschluss-Notiz für diesen Bereich</div>
+            <div className={styles.sectionSummaryLabel}>Notatka końcowa dla tej sekcji</div>
             <textarea
               className={styles.sectionNoteArea}
-              placeholder="Zusammenfassung / Auffälligkeiten für diesen Bereich…"
+              placeholder="Podsumowanie / uwagi dla tej sekcji…"
               value={sectionNote}
               onChange={(e) => onSectionNote(e.target.value)}
               rows={2}
